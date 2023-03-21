@@ -1,0 +1,36 @@
+.head-flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #50266c;
+    padding: 10px 200px 0 200px;
+}
+
+.head2-flex {
+    display: flex;
+    align-items: center;
+}
+
+.tori-red {
+    color: #de1b78;
+}
+
+.text-size {
+    font-size: 12px;
+}
+
+@media screen and (max-width:480px) {
+    .head-flex{
+        padding: 10px;
+      flex-direction: column;
+    }
+    .text-size{
+        font-size: 8px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:992px) {
+    .head-flex{
+        padding: 20px 100px;
+    }
+ 
+    
+}

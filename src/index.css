@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face {
+  font-family: "MiSans";
+  src: local("MiSans"),
+   url("./font/MiSans-Regular.ttf") format("truetype");
+  font-weight:initial;
+  }
+@font-face {
+  font-family: "MiSansBold";
+  src: local("MiSansBold"),
+   url("./font/MiSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  }
+@font-face {
+  font-family: "MiSansLight";
+  src: local("MiSansLight"),
+   url("./font/MiSans-Light.ttf") format("truetype");
+  font-weight: light;
+  }

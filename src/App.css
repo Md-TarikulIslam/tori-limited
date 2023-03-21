@@ -1,6 +1,11 @@
 .App {
   text-align: center;
+  font-family: "MiSansBold";
+  font-family: "MiSansLight";
+  font-family: "MiSans";
+  letter-spacing: 3px;
 }
+
 
 .App-logo {
   height: 40vmin;
