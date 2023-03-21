@@ -1,0 +1,112 @@
+.about-img {
+    background-image: url("../images/about.jpg");
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-head {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 200px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.about-p {
+    color: white;
+}
+
+.about-red {
+    color: #de1b78;
+}
+
+.about-us-text {
+    color: #de1b78;
+    font-family: "MiSansBold";
+    margin: 150px 0 50px 0;
+}
+
+.about-details {
+    text-align: justify;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+
+
+}
+
+.card-shadow {
+    box-shadow: 0px 0px 10px 1px gray;
+    height: 415px;
+    margin-bottom: 150px;
+    border-radius: 15px;
+}
+
+.card-head {
+    color: #50266c;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    bottom: 300px;
+}
+
+.card-p {
+    position: relative;
+    bottom: 270px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+
+@media screen and (max-width:480px) {
+    .about-head {
+        padding-top: 50px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-head {
+        bottom: 200px;
+    }
+
+    .card-p {
+        bottom: 150px;
+    }
+
+    .card-shadow {
+        height: 245px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:992px) {
+
+    .about-head {
+        padding-top: 100px;
+    }
+
+    .card-head {
+        bottom: 180px;
+    }
+
+    .card-p {
+        bottom: 150px;
+    }
+
+    .card-shadow {
+        height: 220px;
+    }
+
+}
