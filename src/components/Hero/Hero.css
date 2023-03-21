@@ -1,0 +1,87 @@
+.cover-img {
+    background-image: url("../images/cover.jpg");
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-position {
+    position: relative;
+    top: 200px;
+}
+
+.hero-text {
+    color: white;
+    font-family: "MiSansBold";
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #80808080;
+
+
+}
+
+.hero-p {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-shadow: 1px 1px #404040;
+}
+
+.tori-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tori-img {
+    height: 700px;
+    width: 700px;
+}
+
+.why-tori {
+    font-family: "MiSansBold";
+    text-align: left;
+    color: #de1b78;
+    margin-bottom: 50px;
+}
+
+.tori-p {
+    text-align: left;
+    width: 600px;
+}
+
+
+@media screen and (max-width:480px) {
+    .tori-flex {
+        flex-direction: column;
+    }
+
+    .why-tori {
+        margin-top: 50px;
+    }
+
+    .tori-p {
+        width: 300px;
+    }
+
+    .tori-img {
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:992px) {
+
+    .tori-flex {
+        flex-direction: column;
+    }
+
+    .why-tori {
+        margin-top: 100px;
+    }
+
+}
