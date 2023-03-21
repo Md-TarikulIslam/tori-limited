@@ -1,0 +1,107 @@
+.contact-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../images/contact.jpg") no-repeat center;
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.contact-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 150px 0px;
+
+}
+
+.header-pos {
+    text-align: left;
+}
+
+.address {
+    width: 400px;
+    text-align: left;
+}
+
+.text-send {
+    text-align: left;
+    font-family: "MiSansBold";
+    margin-bottom: 20px;
+}
+
+.field {
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.field2 {
+    width: 600px;
+    height: 90px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.con-text {
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.sub-btn {
+    background-color: #de1b78;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    right: 240px;
+    top: 50px;
+}
+
+.contact-cover {
+    background-image: url("../images/a1.jpg");
+    background-position: center left;
+}
+
+
+@media screen and (max-width:480px) {
+
+    .contact-flex {
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .header-pos,
+    .address {
+        margin-left: 50px;
+    }
+
+    .field,
+    .field2 {
+        width: 350px;
+    }
+
+    .sub-btn {
+        right: 110px;
+        margin-bottom: 50px;
+    }
+
+
+
+}
+
+@media screen and (min-width:481px) and (max-width:992px) {
+
+    .contact-flex {
+        flex-direction: column;
+
+    }
+
+}

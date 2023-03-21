@@ -1,0 +1,82 @@
+.pro-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url("../images/pro.jpg") no-repeat center;
+    height: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pro-head {
+    color: white;
+    text-shadow: 2px 2px #888888;
+    font-size: 40px;
+    font-family: "MiSansBold";
+    padding-top: 200px;
+    margin-bottom: 50px;
+}
+
+.pro-p {
+    color: white;
+    font-weight: 600;
+}
+
+
+.product-grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 100px;
+
+
+}
+
+.product-card {
+    padding: 30px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px gray;
+    transition: transform .2s;
+
+}
+
+.product-card:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    border: 1px solid red;
+}
+
+.product-img {
+    height: 50px;
+    width: 50px;
+}
+
+.product-head {
+    color: #de1b78;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.product-p {
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:480px) {
+    .product-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:992px) {
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
